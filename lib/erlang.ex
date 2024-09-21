@@ -48,4 +48,8 @@ defmodule Erlang do
     :timer.sleep(2000)
     x * 2
   end
+
+  def tell_me_something_diff do
+    "ola"
+  end
 end

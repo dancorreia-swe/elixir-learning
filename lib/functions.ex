@@ -18,3 +18,9 @@ defmodule Functions do
     String.upcase(name)
   end
 end
+
+defmodule Functions.Actions do
+  def say_hello(name) do
+    Functions.hello(name)
+  end
+end
